@@ -3,7 +3,7 @@
 ## Vanilla install
 - Clone the repo
 - Start the VM with `vagrant up`
-- Enter the MV with `vagrant ssh`
+- Enter the VM with `vagrant ssh`
 - Go to `/vagrant`
 - Start the setup with `chmod +x && ./install.sh`
 - After accepting the license, the Splunk instance will be available at the following:
