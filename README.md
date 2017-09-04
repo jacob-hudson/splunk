@@ -13,3 +13,8 @@
 ## Getting files from the VM (using `scp`)
 - `scp -i _IdentityFile_ -P _Port_  _Src_ _Dest_ `
   - The location of _IdentityFile_ and _Port_ can be extrated from `vagrant ssh-config`
+
+## Incorrect timezone?
+- Use `date` to check the time
+- Adjust timezone with `timedatectl set-timezone America/Chicago` replacing `America/Chicago` with the correct timezone
+- The root password (needed for `timedatectl`) is `vagrant`
